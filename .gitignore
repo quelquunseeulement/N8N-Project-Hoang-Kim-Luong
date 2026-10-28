@@ -1,0 +1,9 @@
+
+# n8ncli ignored files
+.env
+Workflow/config/sync-state.json
+Workflow/config/unconfigured-credentials.json
+Workflow/config/workflow-folders.json
+Workflow/references/
+.DS_Store
+Workflow/config/cache/
