@@ -36,6 +36,14 @@ Pensées pour enrichir les possibilités, simplifier les tâches et transformer 
 
 **Au programme :** mes trois skills, leurs objectifs et leur documentation.
 
+| Skill | Quand | Rôle |
+| --- | --- | --- |
+| [spec-beton](Skills/spec-beton/SKILL.md) | Avant de construire | Pose des questions ciblées sur le besoin, les règles métier et les cas limites, puis produit une spécification testable. |
+| [doubt-driven-development](Skills/doubt-driven-development/SKILL.md) | Pendant la construction | Challenge les décisions risquées et cherche une preuve par lecture ou exécution plutôt que par intuition. |
+| [hostile-review](Skills/hostile-review/SKILL.md) | Après une dérive ou sur demande | Revue contradictoire par trois relecteurs indépendants, puis un arbitre neutre qui rend un verdict et un plan de reprise. |
+
+Installation et usage : voir [Skills/README.md](Skills/README.md).
+
 ## 03 — Vidéo & Transcript
 ### Le projet se regarde. 
 
@@ -45,10 +53,10 @@ La vidéo vous emmène dans les coulisses du projet ; le transcript vous permet 
 
 **Au programme :** la présentation vidéo et son transcript complet.
 
-[![Présentation vidéo du projet Météo Dressing](Vid%C3%A9o/miniature.jpg)](Vid%C3%A9o/presentation-meteo-dressing.mp4)
+[![Présentation vidéo du projet Météo Dressing](Video/miniature.jpg)](Video/presentation-meteo-dressing.mp4)
 
-- **[Regarder la vidéo](Vid%C3%A9o/presentation-meteo-dressing.mp4)** — présentation du projet Météo Dressing (5 min 54)
-- **[Lire le transcript](Vid%C3%A9o/Transcript.md)** — la présentation en version texte
+- **[Regarder la vidéo](Video/presentation-meteo-dressing.mp4)** — présentation du projet Météo Dressing (5 min 54)
+- **[Lire le transcript](Video/Transcript.md)** — la présentation en version texte
 
 ---
 
