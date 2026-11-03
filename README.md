@@ -31,6 +31,11 @@ La vidéo vous emmène dans les coulisses du projet ; le transcript vous permet 
 
 **Au programme :** la présentation vidéo et son transcript complet.
 
+[![Présentation vidéo du projet Météo Dressing](Vid%C3%A9o/miniature.jpg)](Vid%C3%A9o/presentation-meteo-dressing.mp4)
+
+- **[Regarder la vidéo](Vid%C3%A9o/presentation-meteo-dressing.mp4)** — présentation du projet Météo Dressing (5 min 54)
+- **[Lire le transcript](Vid%C3%A9o/Transcript.md)** — la présentation en version texte
+
 ---
 
 **Un clic pour découvrir. Un workflow pour automatiser. Un skill pour aller plus loin.**
