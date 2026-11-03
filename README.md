@@ -13,6 +13,20 @@ Ici, je transforme les processus répétitifs en workflows intelligents, connect
 
 **Au programme :** mes workflows, leur fonctionnement et leur documentation.
 
+### Météo Dressing
+
+Chaque matin à 7 h, trois tenues adaptées à la météo du jour arrivent par e-mail, piochées dans ma garde-robe (un Google Sheet), avec un lien pour valider celle que je porte.
+
+| Workflow | Rôle |
+| --- | --- |
+| [Orchestrateur](Workflow/workflows/M%C3%A9t%C3%A9o%20Dressing%20-%20Orchestrateur.workflow.ts) | Déclenché à 7 h (ou manuellement) : lit la garde-robe, l'historique et les préférences, appelle les autres workflows, envoie l'e-mail et tient le journal. |
+| [Prévisions Météo](Workflow/workflows/M%C3%A9t%C3%A9o%20Dressing%20-%20Pr%C3%A9visions%20M%C3%A9t%C3%A9o.workflow.ts) | Géocode la ville et résume la journée avec l'API Open-Meteo. |
+| [Génération Des Tenues](Workflow/workflows/M%C3%A9t%C3%A9o%20Dressing%20-%20G%C3%A9n%C3%A9ration%20Des%20Tenues.workflow.ts) | Le styliste : Gemini compose les tenues à partir de la météo et du catalogue, avec un modèle de secours. |
+| [Validation De La Tenue](Workflow/workflows/M%C3%A9t%C3%A9o%20Dressing%20-%20Validation%20De%20La%20Tenue.workflow.ts) | La page web derrière le lien de l'e-mail : affiche la tenue choisie et l'inscrit dans l'historique. |
+| [Gestion Des Erreurs](Workflow/workflows/M%C3%A9t%C3%A9o%20Dressing%20-%20Gestion%20Des%20Erreurs.workflow.ts) | En cas d'échec : Gemini analyse la cause, l'incident est journalisé et une alerte part par e-mail. |
+
+Les workflows sont versionnés en TypeScript (`.workflow.ts`) avec [n8ncli](https://github.com/Workflows-Accelerator/n8n-cli).
+
 ## 02 — Skills
 ### Trois skills dans ma manche.
 
